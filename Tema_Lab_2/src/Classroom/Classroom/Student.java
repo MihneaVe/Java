@@ -8,6 +8,7 @@ public final class Student extends Person {
     private int studyGroup;
     private int[] gradesPerDiscipline = new int[4];
 
+    // Constructor
     public Student(String string, int i, Adresa adresa, int j, int k, int[] ls) {
         super(string, i, adresa);
         this.studyYear = j;
@@ -15,6 +16,7 @@ public final class Student extends Person {
         this.gradesPerDiscipline = ls;
     }
 
+    // Getters from README.md
     public int getYearAverage() {
         int sum = 0;
         for (int i = 0; i < 4; i++) {
@@ -32,8 +34,9 @@ public final class Student extends Person {
         }
     }
 
+    // Method to print the top 3 students
     public static void Top3Students(Student[] students) {
-    // Sort students by their average grade in descending order
+        // Sort students by their average grade in descending order
         Arrays.sort(students, new Comparator<Student>() {
             @Override
             public int compare(Student s1, Student s2) {
