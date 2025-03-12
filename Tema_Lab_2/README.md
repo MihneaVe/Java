@@ -26,21 +26,29 @@ number, city, country). Incapsulati corespunzator datele member.
 
 - Declara o clasa Student care extinde clasa Person dar care nu poate fi extinsa la
 randul ei si care adauga atributele urmatoare, incapsulate corespunzator:
-    o studyYear
-    o studyGroup
-    o gradesPerDiscipline de tip array multidimensional cu urmatoarea codificare:
-        ▪ fiecare linie reprezinta notele obtinute la o anumita materie in anul
+    - studyYear
+
+    - studyGroup
+
+    - gradesPerDiscipline de tip array multidimensional cu urmatoarea codificare:
+
+        - fiecare linie reprezinta notele obtinute la o anumita materie in anul
         curent
-        ▪ consideram ca intr-un an de studiu sunt 4 materii, numele lor nu
+
+        - consideram ca intr-un an de studiu sunt 4 materii, numele lor nu
         conteaza
-        ▪ pentru a se putea incheia media, un student trebuie sa aiba minim 2
+
+        - pentru a se putea incheia media, un student trebuie sa aiba minim 2
         note la fiecare materie si poate avea maxim 4 note la o materie
 
 - In clasa Student implementati metodele:
-    o getYearAverage() care intoarce media generala = media mediilor pentru
+
+    - getYearAverage() care intoarce media generala = media mediilor pentru
     fiecare materie
-    o getSituation() care afiseaza la consola numele studentului, anul de studiu,
+
+    - getSituation() care afiseaza la consola numele studentului, anul de studiu,
     grupa si media generala
+
 
 - In clasa Main, folositi un array de obiecte pentru a tine lista studentilor dintr-o grupa
 (pentru simplicitate puteti declara numai 5-10 studenti). Populati fiecare obiect de
