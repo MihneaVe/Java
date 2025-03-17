@@ -1,6 +1,6 @@
 package com.unibuc.pao.ex3;
 
-public class ChildClass extends ParentsClass {
+public class ChildClass extends ParentClass {
     // constructor(s) default, parameterized, copy constructor
 
     ChildClass(){

@@ -7,10 +7,9 @@ public class Main {
         System.out.println(myObject.getClass());
         myObject.nonAbstractMethod();
 
-        ParentsClass myObject2 = new ParentsClass(){
+        ParentClass myObject2 = new ParentClass(0){
         };
         System.out.println(myObject2.getClass());
-        myObject2.doSomething();
         myObject2.doSomethingDefault();
         myObject2.doSomethingProtected();
         // myObject2.doSomethingPrivate(); // Compilation error - private method is not visible

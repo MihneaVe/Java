@@ -1,6 +1,6 @@
 package com.unibuc.pao.ex3;
 
-public abstract class AbstractClassImpl extends AbstractClass {
+public class AbstractClassImpl extends AbstractClass {
     public void abstractMethod(){
         System.out.println("Abstract method");
     }
