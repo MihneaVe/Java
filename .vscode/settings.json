@@ -1,11 +1,11 @@
 {
     "java.project.sourcePaths": [
-        "Tema_Lab_2/src/Classroom",
         "Lab_3/src",
-        "Lab_2/Lab_2/src/com/unibuc/pao/ex3"
+        "Tema_Lab_2\\src",
+        "Lab_1\\Laborator\\src",
+        "Lab_4\\src",
+        "Lab_2\\Lab_2\\src"
     ],
     "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+    "java.project.referencedLibraries": []
 }

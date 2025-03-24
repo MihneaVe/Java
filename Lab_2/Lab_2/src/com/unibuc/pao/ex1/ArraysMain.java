@@ -4,6 +4,7 @@ public class ArraysMain{
 
     static int[] staticIntegers;
 
+    @SuppressWarnings("unused")
     public static void main(String[] args){
 
         // int[] integers;
