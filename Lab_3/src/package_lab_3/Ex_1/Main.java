@@ -2,6 +2,7 @@ package package_lab_3.Ex_1;
 
 public class Main {
 
+    @SuppressWarnings({ "unused", "static-access" })
     public static void main(String[] args) {
 
         // polymorphism examples - which field/method gets called?
